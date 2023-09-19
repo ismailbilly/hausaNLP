@@ -2,22 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.ui-widget-content .ui-datatable-even {
-  background: #F2F5F9;
-}
-.ui-treetable tbody tr:nth-child(odd) {
-  background-color: #edf2f6 !important;
-}
-.ui-widget-content .ui-datatable-odd {
-  background: red;
-}
-.cheap {
-  background-color: #54a90a !important;
-  background-image: none !important;
-  color: #ffffff !important;
-}
-/* :root {
+:root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -29,9 +14,9 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-} */
+}
 
-/* body {
+body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -39,14 +24,4 @@
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
- */
- html{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
- }
-body{
-  
-  
 }
